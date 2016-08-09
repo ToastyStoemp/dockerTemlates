@@ -2,7 +2,7 @@
 <Container>
     <Name>ToastyChat</Name>
     <Description/>
-    <Registry/>
+    <Registry>https://github.com/ToastyStoemp/Toasty.Chat</Registry>
     <Repository>https://github.com/ToastyStoemp/Toasty.Chat</Repository>
     <GitHub>https://github.com/ToastyStoemp/Toasty.Chat</GitHub>
     <BindTime>true</BindTime>
