@@ -20,7 +20,7 @@
         </Volume>
     </Data>
     <Version/>
-    <WebUI/>
+    <WebUI>http://[IP]:[PORT:8080]/</WebUI>
     <Banner/>
     <Icon/>
     <ExtraParams/>
