@@ -4,7 +4,7 @@
     <Description/>
     <Registry>https://github.com/ToastyStoemp/Toasty.Chat</Registry>
     <Repository>https://github.com/ToastyStoemp/Toasty.Chat</Repository>
-    <GitHub>https://github.com/ToastyStoemp/Toasty.Chat</GitHub>
+    <Project>https://github.com/ToastyStoemp/Toasty.Chat</Project>
     <BindTime>true</BindTime>
     <Privileged>false</Privileged>
     <Environment/>
