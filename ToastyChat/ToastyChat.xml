@@ -2,9 +2,9 @@
 <Container>
     <Name>ToastyChat</Name>
     <Description/>
-    <Registry>https://github.com/ToastyStoemp/Toasty.Chat/tree/dockerUpdate</Registry>
-    <Repository>https://github.com/ToastyStoemp/Toasty.Chat/tree/dockerUpdate</Repository>
-    <Project>https://github.com/ToastyStoemp/Toasty.Chat/tree/dockerUpdate</Project>
+    <Registry>https://hub.docker.com/r/toastystoemp/toastychat/</Registry>
+    <Repository>toastystoemp/toastychat</Repository>
+    <GitHub>https://github.com/ToastyStoemp/Toasty.Chat/</GitHub>
     <BindTime>true</BindTime>
     <Privileged>false</Privileged>
     <Environment/>
