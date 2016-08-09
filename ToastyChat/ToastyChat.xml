@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Container>
+    <Name>ToastyChat</Name>
+    <Description/>
+    <Registry/>
+    <Repository/>
+    <GitHub>https://github.com/ToastyStoemp/Toasty.Chat</GitHub>
+    <BindTime>true</BindTime>
+    <Privileged>false</Privileged>
+    <Environment/>
+    <Networking>
+        <Mode>host</Mode>
+        <Publish/>
+    </Networking>
+    <Data>
+        <Volume>
+            <HostDir>/mnt/user/appdata/ToastyChat/config</HostDir>
+            <ContainerDir>/config</ContainerDir>
+            <Mode>rw</Mode>
+        </Volume>
+    </Data>
+    <Version/>
+    <WebUI/>
+    <Banner/>
+    <Icon/>
+    <ExtraParams/>
+</Container>
