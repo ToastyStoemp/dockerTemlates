@@ -11,7 +11,7 @@
         <Mode>host</Mode>
         <Publish/>
     </Networking>
-    </Data>
+    <Data/>
     <Version/>
     <WebUI>http://[IP]:[PORT:8000]/</WebUI>
     <Banner/>
