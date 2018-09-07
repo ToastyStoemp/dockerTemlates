@@ -11,7 +11,13 @@
         <Mode>host</Mode>
         <Publish/>
     </Networking>
-    <Data/>
+    <Data>
+        <Volume>
+            <HostDir>/mnt/user/appdata/NextCloudPi/</HostDir>
+            <ContainerDir>/data</ContainerDir>
+            <Mode>rw</Mode>
+        </Volume>
+    </Data>
     <Version/>
     <WebUI>http://[IP]:[PORT:4443]/</WebUI>
     <Banner/>
