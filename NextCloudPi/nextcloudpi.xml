@@ -20,6 +20,14 @@
       <Mode>bridge</Mode>
       <Publish>
         <Port>
+          <HostPort>80</HostPort>
+          <ContainerPort>80</ContainerPort>
+        </Port>
+        <Port>
+          <HostPort>443</HostPort>
+          <ContainerPort>443</ContainerPort>
+        </Port>
+        <Port>
           <HostPort>4443</HostPort>
           <ContainerPort>4443</ContainerPort>
         </Port>
