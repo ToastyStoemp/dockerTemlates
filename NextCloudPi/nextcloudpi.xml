@@ -21,9 +21,14 @@
     </Variable>
   </Environment>
     <Networking>
-        <Mode>host</Mode>
-        <Publish/>
-    </Networking>
+    <Mode>bridge</Mode>
+    <Publish>
+      <Port>
+        <HostPort>4443</HostPort>
+        <ContainerPort>4443</ContainerPort>
+      </Port>
+    </Publish>
+  </Networking>
     <Data>
         <Volume>
             <HostDir>/mnt/user/appdata/NextCloudPi/</HostDir>
