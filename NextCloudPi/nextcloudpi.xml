@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Container>
+    <Name>NextCloudPi</Name>
+    <Description>No Description</Description>
+    <Registry>https://hub.docker.com/r/ownyourbits/nextcloudpi-x86/</Registry>
+    <Repository>ownyourbits/nextcloudpi-x86</Repository>
+    <BindTime>true</BindTime>
+    <Privileged>false</Privileged>
+    <Environment/>
+    <Networking>
+        <Mode>host</Mode>
+        <Publish/>
+    </Networking>
+    <Data/>
+    <Version/>
+    <WebUI>http://[IP]:[PORT:4443]/</WebUI>
+    <Banner/>
+    <Icon>https://ownyourbits.com/wp-content/uploads/2018/04/ncp-docker2-300x300.png<Icon/>
+    <ExtraParams/>
+</Container>
