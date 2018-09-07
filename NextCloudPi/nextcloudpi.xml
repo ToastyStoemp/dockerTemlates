@@ -34,6 +34,6 @@
     <Version/>
     <WebUI>http://[IP]:[PORT:4443]/</WebUI>
     <Banner/>
-    <Icon/>
+    <Icon>https://ownyourbits.com/wp-content/uploads/2018/04/ncp-docker2-300x300.png<Icon/>
     <ExtraParams/>
 </Container>
