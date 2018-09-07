@@ -6,7 +6,20 @@
     <Repository>ownyourbits/nextcloudpi-x86</Repository>
     <BindTime>true</BindTime>
     <Privileged>false</Privileged>
-    <Environment/>
+    <Environment>
+    <Variable>
+      <Name>UMASK</Name>
+      <Value>000</Value>
+    </Variable>
+    <Variable>
+      <Name>PUID</Name>
+      <Value>99</Value>
+    </Variable>
+    <Variable>
+      <Name>PGID</Name>
+      <Value>100</Value>
+    </Variable>
+  </Environment>
     <Networking>
         <Mode>host</Mode>
         <Publish/>
