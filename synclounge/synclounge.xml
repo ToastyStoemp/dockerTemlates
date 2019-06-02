@@ -11,14 +11,6 @@
         <Name>domain</Name>
         <Value>sync.toastystoemp.com</Value>
       </Variable>
-      <Variable>
-        <Name>autoJoin</Name>
-        <Value>true</Value>
-      </Variable>
-      <Variable>
-        <Name>serverroot</Name>
-        <Value>slserver</Value>
-      </Variable>
     </Environment>
     <Networking>
       <Mode>bridge</Mode>
