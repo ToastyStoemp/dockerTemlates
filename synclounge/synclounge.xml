@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Container>
+    <Name>SyncLounge Auto Join</Name>
+    <Description>No Description</Description>
+    <Registry>https://hub.docker.com/r/toastystoemp/synclounge-auto-join</Registry>
+    <Repository>synclounge-auto-join</Repository>
+    <BindTime>true</BindTime>
+    <Privileged>false</Privileged>
+    <Environment>
+      <Variable>
+        <Name>DOMAIN</Name>
+        <Value>sync.toastystoemp.com</Value>
+      </Variable>
+      <Variable>
+        <Name>autoJoin</Name>
+        <Value>true</Value>
+      </Variable>
+      <Variable>
+        <Name>webroot</Name>
+        <Value>slweb</Value>
+      </Variable>
+      <Variable>
+        <Name>serverroot</Name>
+        <Value>slserver</Value>
+      </Variable>
+      <Variable>
+        <Name>autoJoinServer</Name>
+        <Value>https://sync.toastystoemp.com/slserver</Value>
+      </Variable>
+    </Environment>
+    <Networking>
+      <Mode>bridge</Mode>
+      <Publish>
+        <Port>
+          <HostPort>8088</HostPort>
+          <ContainerPort>8088</ContainerPort>
+        </Port>
+        <Port>
+          <HostPort>8089</HostPort>
+          <ContainerPort>8089</ContainerPort>
+        </Port>
+      </Publish>
+    </Networking>
+    <Data/>
+    <Version/>
+    <WebUI>http://[IP]:[PORT:8089]/</WebUI>
+    <Banner/>
+    <Icon/>
+    <ExtraParams/>
+</Container>
