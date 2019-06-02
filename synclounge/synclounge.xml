@@ -3,7 +3,7 @@
     <Name>SyncLounge Auto Join</Name>
     <Description>No Description</Description>
     <Registry>https://hub.docker.com/r/toastystoemp/synclounge-auto-join</Registry>
-    <Repository>synclounge-auto-join</Repository>
+    <Repository>toastystoemp/synclounge-auto-join</Repository>
     <BindTime>true</BindTime>
     <Privileged>false</Privileged>
     <Environment>
