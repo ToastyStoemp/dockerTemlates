@@ -8,7 +8,7 @@
     <Privileged>false</Privileged>
     <Environment>
       <Variable>
-        <Name>DOMAIN</Name>
+        <Name>domain</Name>
         <Value>sync.toastystoemp.com</Value>
       </Variable>
       <Variable>
@@ -16,16 +16,8 @@
         <Value>true</Value>
       </Variable>
       <Variable>
-        <Name>webroot</Name>
-        <Value>slweb</Value>
-      </Variable>
-      <Variable>
         <Name>serverroot</Name>
         <Value>slserver</Value>
-      </Variable>
-      <Variable>
-        <Name>autoJoinServer</Name>
-        <Value>https://sync.toastystoemp.com/slserver</Value>
       </Variable>
     </Environment>
     <Networking>
@@ -43,7 +35,7 @@
     </Networking>
     <Data/>
     <Version/>
-    <WebUI>http://[IP]:[PORT:8089]/</WebUI>
+    <WebUI>http://[IP]:[PORT:8088]/</WebUI>
     <Banner/>
     <Icon/>
     <ExtraParams/>
